@@ -1,0 +1,75 @@
+html {
+  background-color: #800080;
+}
+
+body {
+  text-align: center;
+  margin: 10px auto;
+  padding: 25px;
+  width: 700px;
+  background-color: #6260d2;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  width: 600px;
+}
+
+img {
+  width: 150px;
+  margin: 25px 20px;
+}
+
+#diceBox {
+  border: 2px solid #800080;
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  margin: 50px auto 25px;
+}
+
+#historyBox {
+  border: 2px solid #800080;
+  padding: 35px 5px;
+  width: 400px;
+  margin: 25px auto 25px auto;
+}
+
+option {
+  text-align: center;
+}
+
+select {
+  font-size: 15px;
+  padding: 5px;
+}
+
+button {
+  background-color: #800080;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #800080;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: #800080;
+}
+
+.history {
+  border: 1px black solid;
+  padding: 2px;
+  margin: 3px;
+}
+
+#minigame {
+  border: 2px solid #800080;
+  padding: 5px;
+  width: 400px;
+  margin: auto;
+}

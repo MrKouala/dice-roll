@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Dice Simulator</h1>
+    <hr />
+    <p>Choose a simulation option</p>
+    <select name="choose" id="select">
+      <option value="1">Roll Dice Once</option>
+      <option value="2">Roll Dice 5 Times</option>
+      <option value="3">Roll Dice X Times</option>
+      <option value="4">Roll Dice Until Snake Eyes</option>
+    </select>
+    <br />
+    <button id="roll">ROLL</button><button id="reset">RESET</button>
+    <p id="diceBox">
+      <img id="one" src="images/0.png" alt="None Rolled" />
+      <img id="two" src="images/0.png" alt="None Rolled" />
+    </p>
+    <br />
+    <div id="historyBox">
+      <p>Dice Rolls</p>
+      <p id="history"></p>
+    </div>
+    <div id="minigame">
+      <h1>Guess!</h1>
+      <p id="guessText">
+        Guess the dice roll, and if you get it,<br />
+        you get a point!
+      </p>
+      <div id="questions">
+        <p>Die #1: <input type="text" id="guess" /></p>
+        <p>Die #2: <input type="text" id="guess2" /></p>
+      </div>
+      <p id="answer"></p>
+    </div>
+  </body>
+</html>
